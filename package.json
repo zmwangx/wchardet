@@ -1,0 +1,18 @@
+{
+  "name": "wchardet",
+  "version": "0.1.0",
+  "author": "Zhiming Wang <i@zhimingwang.org>",
+  "repository": "https://github.com/zmwangx/wchardet",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^3.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-wasm.rs": "^1.2.5"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
