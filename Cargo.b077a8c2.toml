@@ -1,0 +1,12 @@
+[package]
+name = "wchardet"
+version = "0.1.0"
+authors = ["Zhiming Wang <i@zhimingwang.org>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+chardet = "0.2.4"
+encoding = "0.2.33"
+wasm-bindgen = "0.2.23"
